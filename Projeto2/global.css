@@ -1,0 +1,366 @@
+/*Formatação Universal*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Elementos HTML*/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background: #d4d6d5 url(./imagens/fundo.png) repeat-x;
+	font-size: 1em;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+label {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+}
+
+fieldset {
+	background: url(./imagens/fundo-caixa.png);
+	padding: 30px;
+}
+
+input {
+	padding: px;
+}
+
+
+
+/*IDs*/
+
+#conteudo {
+	width: 960px;
+	margin: 1% auto;
+}
+
+#cabeça {
+	margin-top: 15px;
+	width: 100%;
+}
+
+#logo {
+	margin-left: -9px;
+}
+
+#menu {
+	width: 900px;
+}
+
+#corpo {
+	clear: both;
+	margin-top: 130px;
+}
+
+#lateral {
+	width: 220px;
+	float: left;
+	background: url(./imagens/fundo-caixa.png);
+}
+
+#centro {
+	float: left;
+	width: 710px;
+	margin-bottom: 20px;
+}
+
+#rodape {
+	background: #043424;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	color: #cdd6d1;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+#detalhecabeça {
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	position: absolute;
+	top: 2%;
+}
+
+#galeria {
+	background: url(./imagens/divisorcaixa.jpg);
+}
+
+/*Listas*/
+
+#cabeça, ul {
+	list-style: none;
+}
+
+#lateral, ol {
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#lateral, li {
+	margin-top: 10px;
+	padding-top: ;
+}
+
+/*Links*/
+
+#cabeça a{
+	float: left;
+	padding: 5px 15px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+#cabeça a:link, a:visited {
+	color: #fff;
+	background: #7b8f84 url(./imagens/divisor.png) repeat-y right;
+}
+
+#cabeça a:hover {
+	background: #002116 url(./imagens/divisor.png) repeat-y right;
+}
+
+
+#lateral a {
+	text-decoration: none;
+	padding-top: 0px;
+
+}
+
+#lateral a:link, a:visited {
+
+}
+
+#centro a {
+	color: #003120;
+	text-decoration: underline;
+}
+
+/*Classes*/
+
+.caixa {
+	margin-top: 0px;
+	background: #003120;
+	padding: 10px;
+	color: #cdd6d1;
+}
+
+.contentcaixa {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #7b8f84;
+}
+
+.caixacentro {
+	margin: 10px;
+	background: url(./imagens/fundo-caixa.png);
+	padding: 10px;
+	width: 310px;
+	height: 310px;
+	float: left;
+}
+
+.contentcentro {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+.titulocentro {
+	background: #003120;
+	margin-top: -12px;
+	color: #cdd6d1;
+	padding: 10px;
+}
+
+.data {
+	font-size: 0.7em;
+	color: #000;
+	padding-bottom: 5px;
+	font-style: italic;
+}
+
+.imagemcentro {
+	width: 100%;
+	height: 150px;
+}
+
+.caixaculinaria {
+	background: url(./imagens/fundo-caixa.png);
+	width: 400px;
+	height: 350px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.imagemculinaria {
+	width: 100%;
+	height: 200px;
+}
+
+.caixaevento1 {
+	background: url(./imagens/fundo-caixa.png);
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.imagemevento {
+	width: 350px;
+	height: 150px;
+	padding: 15px;
+	float: left;
+}
+
+.caixatextoevento {
+	width: 545px;
+	height: 150px;
+	padding: 15px;
+	float: left;
+}
+
+.imagemevento2 {
+	width: 350px;
+	height: 150px;
+	padding: 15px;
+	float: right;
+}
+
+.caixatextoevento2 {
+	width: 545px;
+	height: 150px;
+	padding: 15px;
+	float: right;
+}
+
+.historiacaixa {
+	width: 400px;
+	height: 700px;
+	background: url(./imagens/fundo-caixa.png);
+	padding: 15px;
+	float: left;
+	margin-bottom: 180px;
+	position: relative;
+	text-align: center;
+}
+
+.historiacaixa2 {
+	width: 400px;
+	height: 700px;
+	background: url(./imagens/fundo-caixa.png);
+	padding: 15px;
+	float: right;
+	position: static;
+	margin-top: 180px;
+	position: relative;
+	text-align: center;
+}
+
+.titulohistoria {
+	background: #003120;
+	padding: 10px;
+	color: #cdd6d1;
+}
+
+.imagemhistoria {
+	position: relative;
+	padding: 0px;
+	margin-top: 15px;
+	width: 100%;
+	height: 40%;
+}
+
+.conteudogaleria {
+	width: 720px;
+	height: 350px;
+	background: url(./imagens/divisorcaixa.jpg) no-repeat top;
+
+}
+
+.imagemgaleria {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	left: 0%;
+}
+
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 300ms ease;
+    margin: auto 120px;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
+
+.slider > input:nth-child(5):checked ~ .slider-content{
+    transform: translateX(-400%);
+}
+
+.slider > input:nth-child(6):checked ~ .slider-content{
+    transform: translateX(-500%);
+}
+
+.areamensagem {
+	margin-left: 20px;
+}
+
+.botaoform {
+	padding-left: 25px;
+}
+
+.botaoanexo {
+	margin-left: 5px;
+	position: absolute;
+}
+
+.botaoenviar {
+	display: block;
+	margin: 20px;
+	width: 100px;
+	height: 70px;
+}
